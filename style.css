@@ -1,1 +1,94 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Maven Pro';
+    margin: auto;
+    height: 100%;
+}
+
+img{
+    display: block;
+}
+
+.menu-item{
+    font-size: 28px;
+    color:black;
+    text-decoration: none;
+}
+.menu{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.menu-pos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+}
+.line1{
+    border-top: 9px solid #0094F0;
+
+}
+
+.section{
+    background-color: #0094F0;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    width: 665px;
+   
+}
+.section-title{
+    font-size: 28px;
+    font-weight: 300;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 23px;
+    padding-left: 23px;
+}
+.img-pos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 625px;
+   margin-bottom: 13px;
+   margin: auto;
+}
+
+.title2{
+    font-size: 28px;
+    font-weight: 300;
+    color: #0094F0;
+    margin-top: 0;
+    margin-bottom: 23px;
+
+}
+.section-text{
+    font-family: 'Albert Sans';
+    font-size: 19px;
+    margin-bottom: 55px;
+}
+.section2{
+    padding-top: 58px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main{
+    display: flex;
+
+}
+.footer1{
+    background-color: #00516d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    
+}
